@@ -1,0 +1,137 @@
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+ * {
+     font-family: Montserrat;
+     box-sizing: border-box;
+     background-color: #24252A;
+     /* padding: 5px; */
+     color: #edf0f1;
+     text-decoration: none;
+ }
+
+ header {
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+     
+ }
+
+ .logo a img {
+     border: solid 2px #24252A;
+     border-radius: 50%;
+     height: 100px;
+     width: 100px;
+
+ }
+
+ /* button:hover{
+    background-color: rgba(0, 136, 169, 0.8);
+ } */
+ .navelem a{
+    color: rgba(255, 255, 192, 1);
+ }
+  .navelem li{
+    list-style: none;
+    display: inline-block;
+    color: rgba(255, 255, 192, 1);
+ padding-right: 100px; 
+    margin-right: 50px;
+} 
+.select{
+    border: none;
+    width: 70px;
+    height: 23px;
+    border-radius: 10px;
+    background-color:#24252A;
+    transition: 0.5s;
+    color: rgba(255, 255, 192, 1);
+
+}
+ .select:hover{
+    background-color: rgba(0, 136, 169, 0.8); 
+} 
+/* li a:hover{
+    background-color: rgba(0, 136, 169, 0.8);
+} */
+section{
+ display: flex;
+ justify-content: center;
+ align-items: center;  
+ height: 600px;
+ /* margin-right: 150px; */
+}
+
+.h1 {
+    color:  #edf0f1;
+    /* border: solid black 3px; */
+    height: 250px;
+    width: 485px;
+    margin-right: 55px;
+}
+
+.h1 h1{
+    font-size: 40px;
+ color: rgba(255, 255, 192, 0.7);
+    /* color: rgba(0, 136, 169, 0.7); */
+
+}
+
+.h1 p{
+    font-size:smaller ;
+}
+.img img{
+    width: 380px;
+    height: 670px;
+    position: relative;
+    top: 100px;
+    /* border: black solid 2px; */
+    border-radius: 20px;
+}
+.inline{
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 10px;
+   }
+
+.inline button{
+    height: 40px;
+     width: 180px;
+     border-radius: 50px;
+     border: none;
+     background-color: rgba(0, 136, 169, 1);
+     cursor: pointer; 
+}   
+/* .inline button:hover{
+    background-color: rgba(0, 136, 169, 0.8);
+} */
+.inline a{
+    background-color: rgba(0, 136, 169, 1);
+     font-weight: bold;
+    font-size: 15px; 
+}
+.inline .le button{
+    background-color: #edf0f1;
+    color: #edf0f1;
+}
+.inline .le a{
+background-color: #edf0f1;
+color: #edf0f1;
+}
+
+
+.button button {
+    height: 30px;
+    width: 130px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgba(0, 136, 169, 1);
+    cursor: pointer;
+    
+}
+
+ .button a {
+    background-color: rgba(0, 136, 169, 1);
+    font-weight: bold;
+    font-size: 15px;
+ }
+ 
